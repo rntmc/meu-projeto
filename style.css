@@ -59,6 +59,8 @@ header h1 {
 
 main {
   margin-top: 5rem;
+  margin-bottom: 6rem;
+  width: 100%;
   text-align: center;
 }
 
@@ -133,7 +135,6 @@ main p {
   align-items: center;
   width: fit-content;
 }
-
 
 
 
