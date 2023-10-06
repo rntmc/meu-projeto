@@ -1,0 +1,94 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <link rel="stylesheet" href="style2.css">
+  <link href='https://unpkg.com/boxicons@2.1.4/css/boxicons.min.css' rel='stylesheet'>
+  <title>User information</title>
+</head>
+<body>
+  <a href="/">Home</a>
+  <div class="page">
+    <header>
+      <h2>USER INFORMATION</h2>
+    </header>
+    
+    <form id="my-form">
+      <fieldset>
+        <div class="fieldset-wrapper">
+
+          <div class="col-2">
+            <div class="input-wrapper">
+            <label for="user-name">First Name:</label>
+            <input type="text" id="user-name" placeholder="John" required>
+            </div>
+
+            <div class="input-wrapper">
+            <label for="user-surname">Last Name:</label>
+            <input type="text" id="user-surname" placeholder="Smith" required>
+            </div>
+          </div>
+
+            <div class="input-wrapper">
+            <label for="user-email">Email:</label>
+            <input type="email" id="user-email" placeholder="john@email.com">
+            </div>
+
+            <div class="input-wrapper">
+              <label for="user-number">Phone Number:</label>
+              <input type="number" id="user-number" placeholder="555000555">
+              </div>
+        </div>
+
+      </fieldset>
+      
+      <fieldset>
+        
+        <div class="fieldset-wrapper_2">
+          <h2>SHIPPING ADDRESS</h2>
+          
+          <div class="input-wrapper">
+            <label for="user-address1">Address (Line one):</label>
+            <input type="text" id="user-address1" placeholder="Street one">
+          </div>
+
+          <div class="input-wrapper">
+            <label for="user-address2">Address (Line two):</label>
+            <input type="text" id="user-address2" placeholder="Street two">
+          </div>
+
+          <div class="input-wrapper">
+            <label for="user-city">City:</label>
+            <input type="text" id="user-city" placeholder="Phoenix">
+          </div>
+
+          <div class="input-wrapper">
+            <label for="user-state">State:</label>
+            <input type="text" id="user-state" placeholder="Arizona">
+          </div>
+
+          <div class="input-wrapper">
+            <label for="user-zip5">Zip Cod(5):</label>
+            <input type="number" id="user-zip5" max="99999" placeholder="21546">
+          </div>
+
+          <div class="input-wrapper">
+            <label for="user-zip4">Zip Code(4):</label>
+            <input type="number" id="user-zip4" max="9999" placeholder="4444" >
+          </div>
+        
+        </div>
+      </fieldset>
+
+
+        
+    </form>
+    
+    <footer>
+      <input class="button" type="submit" form="my-form" value="SAVE"></input>
+    </footer>
+  </div>
+<div id="verification-result"></div>
+  <script src="user.js"></script>
+<body>
